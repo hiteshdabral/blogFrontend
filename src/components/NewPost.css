@@ -1,0 +1,62 @@
+.NewPost {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.NewPost label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.NewPost input[type="text"],
+.NewPost input[type="file"] {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.NewPost input[type="file"] {
+  padding: 10px 20px;
+}
+
+.NewPost.ReactQuill {
+  height: 200px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.NewPost button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.NewPost button[type="submit"]:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.NewPost.error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.NewPost.ToastContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}

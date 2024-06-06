@@ -1,0 +1,62 @@
+.Post {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Post h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .Post img {
+  width: 80%;
+    height: 400px;
+    margin-bottom: 20px;
+  }
+  
+  .Post p {
+    margin-bottom: 20px;
+  }
+  
+  .Post .ReactQuill {
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+
+  
+  .Post button[type="button"]:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .Post .error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .Post .ToastContainer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+  }
+
+  .Post .submit{
+    
+        background-color: #4CAF50;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      
+  }

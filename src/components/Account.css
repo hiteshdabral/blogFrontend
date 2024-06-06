@@ -1,0 +1,107 @@
+/* Account.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  /* Account page styles */
+  .account-page {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .account-page h2 {
+    margin-bottom: 10px;
+  }
+  
+  .account-page p {
+    margin-bottom: 20px;
+  }
+  
+  .account-page img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  
+  .account-page button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .account-page button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .account-page button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Form styles */
+  .form-container {
+    margin-top: 20px;
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-container input[type="file"] {
+    padding: 10px 0;
+  }
+  
+  .form-container.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .form-container button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-container button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  .form-container button[type="submit"][disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  

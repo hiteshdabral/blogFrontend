@@ -1,0 +1,50 @@
+.post-item {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* added */
+  background-color: #f2f2f2;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.post-item a {
+  color: #333;
+  text-decoration: none;
+  flex-grow: 1;
+  margin-right: 10px; /* added */
+}
+
+.post-item img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  margin-left: 10px; /* added */
+}
+.post-item a:nth-child() img ,
+.post-item.delete-img {
+  margin-right: 10px; /* added */
+}
+
+/* added */
+.container {
+  max-width: 800px; /* adjust the width to your liking */
+  margin: 40px auto; /* center the container */
+  padding: 20px;
+}
+Link{
+  margin-right: 10px; 
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
